@@ -1,22 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {NgxDaterangepickerBootstrapModule} from "ngx-daterangepicker-bootstrap";
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from '@angular/forms';
+
+import { ApwDaterangepickerBsModule } from '../../projects/apw-daterangepicker-bs/src/public-api';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    NgxDaterangepickerBootstrapModule.forRoot()
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [AppComponent],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		FormsModule,
+		ApwDaterangepickerBsModule.forRoot()
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

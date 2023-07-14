@@ -16,7 +16,7 @@ For the moment use demo of the forked version for other detalis: https://fetrari
 
 | Angular | Bootstrap | apw-daterangepicker-bs |
 | ------- | :-------- | :--------------------: |
-| 16.1.4  | 5.3.0     |         16.0.x         |
+| 16.1.0  | 5.3.0     |         16.0.x         |
 | 15.1.0  | 5.2.0     |         15.5.x         |
 | 14.1.0  | 5.2.0     |         14.5.x         |
 
