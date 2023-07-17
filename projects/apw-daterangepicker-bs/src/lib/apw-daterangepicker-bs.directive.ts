@@ -265,6 +265,8 @@ export class ApwDaterangepickerBsDirective
 	}
 
 	open(event?: any) {
+		event?.preventDefault();
+		event?.stopPropagation();
 		if (this.disabled) return;
 		this.daterangepicker.show(event);
 		if (this.daterangepicker.isShown) this.setPosition();
