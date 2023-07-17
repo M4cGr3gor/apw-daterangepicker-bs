@@ -187,7 +187,7 @@ It is possible to open datepicker from outside. You should create an input with 
 ```html
 <input type="text" id="input" class="form-control" apwDaterangepickerBs [closeOnAutoApply]="true" [autoApply]="true" [singleDatePicker]="true" [linkedCalendars]="true" [(ngModel)]="selected" (datesUpdated)="datesUpdated($event)" />
 
-<a class="apw-daterangepicker-action" (click)="openDatepicker()"> Open </a>
+<a class="apw-daterangepicker-action" (click)="openDatepicker($event)"> Open </a>
 ```
 
 ```typescript
@@ -196,8 +196,8 @@ It is possible to open datepicker from outside. You should create an input with 
     @ViewChild(ApwDaterangepickerBsDirective, { static: false }) pickerDirective: ApwDaterangepickerBsDirective;
   ...
   ...
-  openDatepicker() {
-    this.pickerDirective.open();
+  openDatepicker(event: any) {
+    this.pickerDirective.open(event);
   }
 ```
 
