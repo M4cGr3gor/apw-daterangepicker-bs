@@ -33,8 +33,5 @@
 	"dependencies": {
 		"tslib": "^2.3.0"
 	},
-	"sideEffects": false,
-	"publishConfig": {
-		"registry": "https://nexus.appolow.bosonit.local/repository/npm-privateapplw/"
-	}
+	"sideEffects": false
 }
