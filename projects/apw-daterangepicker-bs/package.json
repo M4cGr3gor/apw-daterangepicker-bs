@@ -1,6 +1,6 @@
 {
 	"name": "apw-daterangepicker-bs",
-	"version": "16.0.3",
+	"version": "16.0.4",
 	"description": "Date Range Picker - Angular 16 and Bootstrap 5",
 	"keywords": [
 		"angular16",
@@ -25,13 +25,16 @@
 		"url": "https://github.com/M4cGr3gor/apw-daterangepicker-bs.git"
 	},
 	"peerDependencies": {
-		"@angular/common": "^16.1.0",
-		"@angular/core": "^16.1.0",
-		"bootstrap": "^5.3.0",
+		"@angular/common": "^16.2.0",
+		"@angular/core": "^16.2.0",
+		"bootstrap": "^5.3.1",
 		"dayjs": "^1.11.9"
 	},
 	"dependencies": {
 		"tslib": "^2.3.0"
 	},
-	"sideEffects": false
+	"sideEffects": false,
+	"publishConfig": {
+		"registry": "https://nexus.appolow.bosonit.local/repository/npm-privateapplw/"
+	}
 }

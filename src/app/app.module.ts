@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
-import { ApwDaterangepickerBsModule } from '../../projects/apw-daterangepicker-bs/src/public-api';
+import { ApwDaterangepickerBsModule } from 'apw-daterangepicker-bs';
 
 @NgModule({
 	declarations: [AppComponent],

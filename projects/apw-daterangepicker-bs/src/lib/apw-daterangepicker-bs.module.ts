@@ -15,8 +15,6 @@ import { ApwDaterangepickerLocaleService } from './apw-daterangepicker-locale.se
 	exports: [ApwDaterangepickerBsComponent, ApwDaterangepickerBsDirective]
 })
 export class ApwDaterangepickerBsModule {
-	constructor() {}
-
 	static forRoot(
 		config: LocaleConfig = {}
 	): ModuleWithProviders<ApwDaterangepickerBsModule> {

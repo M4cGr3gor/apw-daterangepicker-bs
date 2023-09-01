@@ -7,10 +7,9 @@ describe('ApwDaterangepickerBsComponent', () => {
 	let fixture: ComponentFixture<ApwDaterangepickerBsComponent>;
 
 	beforeEach(async () => {
-		await TestBed.configureTestingModule({
+		TestBed.configureTestingModule({
 			declarations: [ApwDaterangepickerBsComponent]
-		}).compileComponents();
-
+		});
 		fixture = TestBed.createComponent(ApwDaterangepickerBsComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
