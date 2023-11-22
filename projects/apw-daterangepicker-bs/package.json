@@ -1,0 +1,37 @@
+{
+	"name": "apw-daterangepicker-bs",
+	"version": "17.0.0",
+	"description": "Date Range Picker - Angular 17 and Bootstrap 5",
+	"keywords": [
+		"angular17",
+		"apw",
+		"daterangepicker",
+		"bootstrap5",
+		"component",
+		"directive",
+		"date",
+		"range",
+		"picker",
+		"dayjs"
+	],
+	"homepage": "https://angular-ivy-fdit1j.stackblitz.io/",
+	"license": "MIT",
+	"author": {
+		"name": "Gregorio Jimenez",
+		"email": "g.jimenez.mejias@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/M4cGr3gor/apw-daterangepicker-bs.git"
+	},
+	"peerDependencies": {
+		"@angular/common": "^17.0.0",
+		"@angular/core": "^17.0.0",
+		"bootstrap": "^5.3.2",
+		"dayjs": "^1.11.10"
+	},
+	"dependencies": {
+		"tslib": "^2.3.0"
+	},
+	"sideEffects": false
+}

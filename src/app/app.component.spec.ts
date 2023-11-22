@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'apw-daterangepicker-bs' title`, () => {
+  it(`should have the 'daterangepicker-bootstrap-sdk' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('apw-daterangepicker-bs');
+    expect(app.title).toEqual('daterangepicker-bootstrap-sdk');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, apw-daterangepicker-bs');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, daterangepicker-bootstrap-sdk'
+    );
   });
 });
