@@ -7,12 +7,13 @@ import {
 
 @Injectable()
 export class ApwDaterangepickerLocaleService {
-	constructor(@Inject(LOCALE_CONFIG) private _config: LocaleConfig) {}
-
 	get config() {
 		if (!this._config) {
 			return DefaultLocaleConfig;
 		}
+
 		return { ...DefaultLocaleConfig, ...this._config };
 	}
+
+	constructor(@Inject(LOCALE_CONFIG) private _config: LocaleConfig) {}
 }
