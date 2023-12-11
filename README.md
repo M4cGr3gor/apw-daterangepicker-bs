@@ -40,7 +40,7 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
-import **ApwDaterangepickerModule** in your module or your component:
+Import **ApwDaterangepickerModule** in your module or your component:
 
 ```typescript
 ...
