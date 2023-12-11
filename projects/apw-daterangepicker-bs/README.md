@@ -27,7 +27,7 @@ For the moment use demo of the forked version for other detalis: https://fetrari
 
 > npm install apw-daterangepicker-bs
 
-import **ApwDaterangepickerModule** in your app.config.ts:
+Import **ApwDaterangepickerModule** in your app.config.ts:
 
 ```typescript
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';

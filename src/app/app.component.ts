@@ -25,6 +25,7 @@ export class AppComponent {
 	opensRight = 'right';
 	opensCenter = 'center';
 	opensLeft = 'left';
+	selectedRangeCalendarTest: any = { startDate: null, endDate: null };
 	selectedRangeCalendarTimeRight: any;
 	selectedRangeCalendarCenter: any;
 	selectedRangeCalendarAutoLeft: any;
