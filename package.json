@@ -8,7 +8,7 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"build_lib": "ng build apw-daterangepicker-bs --configuration production",
-		"publish": "npm run build_lib && cp ./.npmrc dist/apw-daterangepicker-bs && cd dist/apw-daterangepicker-bs && npm publish"
+		"publish": "npm run build_lib && copy ./.npmrc dist/apw-daterangepicker-bs && cd dist/apw-daterangepicker-bs && npm publish"
 	},
 	"private": true,
 	"dependencies": {
