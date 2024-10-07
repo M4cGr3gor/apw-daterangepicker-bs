@@ -2,9 +2,9 @@
 
 This is a fork from https://github.com/iulius-ciorica/ngx-daterangepicker-bootstrap
 
-> Date range picker - Angular 17 and Bootstrap 5
+> Date range picker - Angular 18 and Bootstrap 5
 
-This `Angular Bootstrap` plugin is compatible with Angular 17 and is Ivy compatible. It leverages `dayjs` to handle date manipulation and parsing and bootstrap 5 for visuals details.
+This `Angular Bootstrap` plugin is compatible with Angular 18 and is Ivy compatible. It leverages `dayjs` to handle date manipulation and parsing and bootstrap 5 for visuals details.
 This plugin is a fork of [NgxDaterangepickerMaterial](https://github.com/fetrarij/ngx-daterangepicker-material) by Fetrarijaona R. which is an improved version that uses Bootstrap 5.
 The base for this plugin was originally the [Bootstrap Date Range Picker](http://www.daterangepicker.com), but its dependencies on jQuery and moment.js were removed.
 
@@ -18,6 +18,7 @@ For the moment use demo of the forked version for other detalis: https://fetrari
 
 | Angular | Bootstrap | apw-daterangepicker-bs |
 | ------- | :-------- | :--------------------: |
+| 18.0.0  | 5.3.0     |         18.0.x         |
 | 17.0.0  | 5.3.0     |         17.0.x         |
 | 16.1.0  | 5.3.0     |         16.0.x         |
 
